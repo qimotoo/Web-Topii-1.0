@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Zero To Mastery - Become a Web Dev Today</title>
+    <link rel="icon" type="image/png" href="../assets/images/favicon.ico" />
+    <!-- Bootstrap core CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <!-- Custom styles for this template -->
+    <link href="../assets/css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- Navigation -->
+    <div id="nav"></div>
+    <!-- Video Section -->
+    <section id="about" class="bg-secondary">
+      <div class="container bg-secondary text-center p-5">
+        <!-- Title -->
+        <div class="videoTitles text-center">
+          <h2 class="display-4 mt-5">
+            Advanced Javascript Concepts
+          </h2>
+        </div>
+        <!-- Video -->
+        <div class="desktop-wrapper my-5">
+          <div
+            onclick='play("https://www.youtube.com/embed/mxNoa6mJUZw?autoplay=1");'
+            class="playicon "
+            id="vidwrap"
+          ></div>
+        </div>
+        <!-- Description -->
+        <p>
+          <em
+            >"Learn modern advanced JavaScript practices and be in the top 10%
+            of JavaScript developers"</em
+          >
+        </p>
+      </div>
+    </section>
+    <!-- Content -->
+    <section class="py-5">
+      <div class="container text-center text-style">
+        <h1>Be in the top 10% of JavaScript developers</h1>
+        <br />
+        <h2 class="mt-3">What you'll learn</h2>
+        <br />
+        <ul class="noBullets text-left mt-3">
+          <li class="mb-1">
+            <span class="tic">✔︎</span> Javascript Engine, Javascript Runtime,
+            Interpreter, Compiler, JIT Compiler
+          </li>
+          <li class="mb-1">
+            <span class="tic">✔︎</span> Writing Optimized Code, Call Stack +
+            Memory Heap, Stack Overflow + Memory Leaks, Garbage Collection
+          </li>
+          <li class="mb-1">
+            <span class="tic">✔︎</span> Node.js, ES6, ES7, ES8, ES9 features,
+            Single Threaded Model, Execution Context, Lexical Environment, Scope
+            Chain, Hoisting, Function Invocation Function Scope vs Block Scope
+            Dynamic vs Lexical Scope this - call(), apply(), bind() IIFEs
+            Context vs Scope
+          </li>
+          <li class="mb-1">
+            <span class="tic">✔︎</span> Static vs Dynamically Typed Primitive
+            Types Pass by Reference vs Pass by Value Type Coercion Arrays,
+            Functions, Objects Closures Prototypal Inheritance Class Inheritance
+            Memoization
+          </li>
+
+          <li class="mb-1">
+            <span class="tic">✔︎</span> Higher Order Functions Functions vs
+            Objects Scheme + Java in JavaScript OOP (Object Oriented
+            Programming) Private vs Public properties Functional Programming
+            Immutability
+          </li>
+          <li class="mb-1">
+            <span class="tic">✔︎</span> Imperative vs Declarative code
+            Composition vs Inheritance Currying Partial Application Pure
+            Functions Referential Transparency Compose Pipe Error Handling
+          </li>
+          <li class="mb-1">
+            <span class="tic">✔︎</span> Asynchronous JavaScript Callbacks,
+            Promises, Async/Await Event Loop + Callback Queue Task Queue +
+            Microtask Queue Concurrency + Parallelism Modules in Javascript
+          </li>
+        </ul>
+      </div>
+      <br />
+      <a
+        class="text-center mt-3 link"
+        href="https://www.udemy.com/advanced-javascript-concepts/"
+        target="_blank"
+        rel="noopener noreferrer"
+        ><h1>Go to Course <span class="arrow">➤</span></h1></a
+      >
+    </section>
+    <!-- Footer -->
+    <div id="footer"></div>
+    <script src="../assets/js/scripts.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha384-xBuQ/xzmlsLoJpyjoggmTEz8OWUFM0/RC5BsqQBDX2v5cMvDHcMakNTNrHIW2I5f"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+        $(function(){
+            $("#nav").load("../nav.html"); 
+            $("#footer").load("../footer.html", function() {
+                getDateFooter();
+          });
+        });
+    </script> 
+  </body>
+</html>
