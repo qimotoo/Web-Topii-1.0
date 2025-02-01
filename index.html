@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="Zero To Mastery Official Website. Learn HTML, CSS, JavaScript, ReactJS, NodeJS, PostgreSQL, Python, Algorithms and Data Structures at ZTM." />
+  <meta name="author" content="" />
+
+  <title>Zero To Mastery - Become a Web Dev Today</title>
+  <link rel="icon" type="image/png" href="./assets/images/favicon.ico" />
+
+  <!-- Bootstrap core CSS -->
+  <link 
+    rel="stylesheet" 
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+    crossorigin="anonymous"
+  />
+  <!--Animation On Scroll-->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+
+  <!-- Custom styles for this template -->
+  <link href="./assets/css/style.css" rel="stylesheet" />
+  <link href="./assets/css/carousel.css" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- Navigation -->
+  <div id="nav"></div>
+
+  <header>
+    <div class="carousel slide" data-ride="carousel" data-interval="4000" id="carousel-1">
+      <div class="carousel-inner" role="listbox">
+        <!-- Slide 1 -->
+        <div class="carousel-item active" role="option">
+          <img class="img-fluid w-100 d-block" srcset="
+                ./assets/images/slide-images/slide1-xs.jpg  600w,
+                ./assets/images/slide-images/slide1-s.jpg   900w,
+                ./assets/images/slide-images/slide1-m.jpg  1200w,
+                ./assets/images/slide-images/slide1-l.jpg  1920w
+              " src="./assets/images/slide-images/slide1-xs.jpg" alt="Slide Image" />
+          <div class="carousel-caption">
+            <h3 class="animated slideInDown">Coding Gado</h3>
+            <p class="animated slideInLeft">
+              Tantangan Coding Setiap Bulan, Didesain untuk meningkat skill coding ke level yang tinggi!
+            </p>
+            <a href="./projects/coding-challenges.html" class="btn btn-outline-light btn-lg animated slideInUp" target="_blank">Inoma Ebatai</a>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item" role="option">
+          <img class="img-fluid w-100 d-block" srcset="
+                ./assets/images/slide-images/slide2-xs.jpg  600w,
+                ./assets/images/slide-images/slide2-s.jpg   900w,
+                ./assets/images/slide-images/slide2-m.jpg  1200w,
+                ./assets/images/slide-images/slide2-l.jpg  1920w
+              " src="./assets/images/slide-images/slide2-xs.jpg" alt="Slide Image" />
+          <div class="carousel-caption">
+            <h3 class="animated fadeInDown">Enaimo Project</h3>
+            <p class="animated slideInUp">
+              Enaimo Ekowai Project, Enaa Agiyo Enaimo Ekowamakai
+            </p>
+            <a href="./projects/collaboration-projects.html"
+              class="btn btn-outline-light btn-lg animated slideInUp" target="_blank">Inoma Ebatai</a>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="carousel-item" role="option">
+          <img class="img-fluid w-100 d-block" srcset="
+                ./assets/images/slide-images/slide3-xs.jpg  600w,
+                ./assets/images/slide-images/slide3-s.jpg   900w,
+                ./assets/images/slide-images/slide3-m.jpg  1200w,
+                ./assets/images/slide-images/slide3-l.jpg  1920w
+              " src="./assets/images/slide-images/slide3-xs.jpg" alt="Slide Image" />
+          <div class="carousel-caption">
+            <h3 class="animated slideInDown">Enaa Agiyo Motetaida</h3>
+            <p class="animated slideInLeft">
+              Artikel ma repositori maketaida topena bagee
+            </p>
+            <a href="./community/resources.html" class="btn btn-outline-light btn-lg animated slideInUp" target="_blank">Inoma Ebatai</a>
+          </div>
+        </div>
+
+        <!-- Slide 4 -->
+        <div class="carousel-item" role="option">
+          <img class="img-fluid w-100 d-block" srcset="
+                ./assets/images/slide-images/slide4-xs.jpg  600w,
+                ./assets/images/slide-images/slide4-s.jpg   900w,
+                ./assets/images/slide-images/slide4-m.jpg  1200w,
+                ./assets/images/slide-images/slide4-l.jpg  1920w
+              " src="./assets/images/slide-images/slide4-xs.jpg" alt="Slide Image" />
+          <div class="carousel-caption">
+            <h3 class="animated slideInDown">Gowakido Maana ma Woo Eti Maana</h3>
+            <p class="animated slideInLeft">Ask and answer questions</p>
+            <a href="./community/questions-board.html" class="btn btn-outline-light btn-lg animated slideInUp" target="_blank">Inoma
+              Ebatai</a>
+          </div>
+        </div>
+
+        <!-- Slide 5 -->
+        <div class="carousel-item" role="option">
+          <img class="img-fluid w-100 d-block" srcset="
+                ./assets/images/slide-images/slide5-xs.jpg  600w,
+                ./assets/images/slide-images/slide5-s.jpg   900w,
+                ./assets/images/slide-images/slide5-m.jpg  1200w,
+                ./assets/images/slide-images/slide5-l.jpg  1920w
+              " src="./assets/images/slide-images/slide5-xs.jpg" alt="Slide Image" />
+          <div class="carousel-caption">
+            <h3 class="animated slideInDown">Mee Kotu</h3>
+            <p class="animated slideInLeft">
+              Join over 22,000 students and developers in the online community
+            </p>
+            <a href="./community/discord.html" class="btn btn-outline-light btn-lg animated slideInUp" target="_blank">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div>
+        <a class="carousel-control-prev" href="#carousel-1" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon">
+            <i class="la la-cutlery"></i>
+          </span>
+          <span class="sr-only">Yokatoo</span>
+        </a>
+        <a class="carousel-control-next" href="#carousel-1" role="button" data-slide="next">
+          <span class="carousel-control-next-icon">
+            <i class="la la-cutlery"></i>
+          </span>
+          <span class="sr-only">Amatoo</span>
+        </a>
+      </div>
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-1" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-1" data-slide-to="1"></li>
+        <li data-target="#carousel-1" data-slide-to="2"></li>
+        <li data-target="#carousel-1" data-slide-to="3"></li>
+        <li data-target="#carousel-1" data-slide-to="4"></li>
+      </ol>
+    </div>
+  </header>
+
+  <!-- Language Section -->
+  <section class="langs py-5">
+    <div class="container text-center">
+      <img src="./assets/images/lang/html.png" alt="HTML5" data-aos="fade-up" data-aos-duration="1000"/>
+      <img src="./assets/images/lang/css.png" alt="CSS3" data-aos="fade-up" data-aos-duration="1000"/>
+      <img src="./assets/images/lang/javascript.png" alt="JavaScript" data-aos="fade-up" data-aos-duration="1000"/>
+    </div>
+  </section>
+
+  <!-- Video Section -->
+  <section id="about" class="bg-dark">
+    <div class="container bg-dark text-center p-5">
+      <!-- Title -->
+      <div class="videoTitles text-center">
+        <h3 class="text-light" data-aos="fade-right" data-aos-duration="1000">Become a Web Developer</h3>
+        <h2 class="display-4" data-aos="fade-left" data-aos-duration="500">Start Today!</h2>
+      </div>
+
+      <!-- Video -->
+      <div class="desktop-wrapper my-5" data-aos="fade-up" data-aos-duration="1000">
+        <div onclick='play("https://www.youtube.com/embed/sCX_YMPuJGA?autoplay=1")' class="playicon " id="vidwrap">
+        </div>
+      </div>
+
+      <!-- Description -->
+      <p data-aos="fade-right" data-aos-duration="750">
+        <em>"The Complete Web Developer in <span class="year"></span>: Zero to Mastery"</em> is a
+        complete full-stack web development course, with the latest and most
+        in-demand technologies, for anyone trying to learn web development in
+        2019.
+        <br />
+        <br />
+        Learn to code with us, join the community and practice the skills you
+        gained from the course, build up your portfolio by contributing to
+        projects, and become a job ready web developer this year.
+      </p>
+    </div>
+  </section>
+
+  <!-- Course Section -->
+  <section id="course" class="container py-5">
+    <div class="row justify-content-center">
+      <!-- ZTM -->
+      <div class="card coursecard col-12 col-md-5 col-lg-3 p-0" data-aos="fade-up" data-aos-duration="500">
+        <img class="card-img-top" src="./assets/images/course-images/zerotomastery.jpg" alt="Andrei Neagoie Complete Web Developer Course Image" />
+        <div class="card-body">
+          <h5 class="card-title">
+            The Complete Web Developer in <span class="year"></span>: Zero to Mastery
+          </h5>
+          <p class="card-text">
+            Learn to code and become a web developer in <span class="year"></span> with HTML5, CSS3,
+            JavaScript (ES2019), ReactJS, ExpressJS, NodeJS, PostgreSQL, Machine Learning and more by making fun and exciting projects along the way!
+          </p>
+        </div>
+        <div class="card-footer text-center">
+          <a href="./courses/zero-to-mastery.html" class="btn btn-outline-warning" target="_blank">View Course</a>
+        </div>
+      </div>
+
+      <!-- J2S -->
+      <div class="card coursecard col-12 col-md-5 col-lg-3 p-0" data-aos="fade-up" data-aos-duration="1000">
+        <img class="card-img-top" src="./assets/images/course-images/j2s.jpg" alt="Andrei Neagoie Junior to Senior Developer Course Image" />
+        <div class="card-body">
+          <h5 class="card-title">
+            The Complete Junior to Senior Web Developer Roadmap (<span class="year"></span>)
+          </h5>
+          <p class="card-text">
+            This is the tutorial you've been looking for to no longer be a
+            junior developer, level up your skills, and earn a higher salary.
+            This extensive course doesn’t just cover a small portion of the
+            industry.
+          </p>
+        </div>
+        <div class="card-footer text-center">
+          <a href="./courses/junior-to-senior.html" class="btn btn-outline-warning" target="_blank">View Course</a>
+        </div>
+      </div>
+
+      <!-- MCI -->
+      <div class="card coursecard col-12 col-md-5 col-lg-3 p-0" data-aos="fade-up" data-aos-duration="1500">
+        <img class="card-img-top" src="./assets/images/course-images/mastering-interviews.jpg" alt="Andrei Neagoie Data Structures and Algorithms Course Image" />
+        <div class="card-body">
+          <h5 class="card-title">
+            Master the Coding Interview: Data Structures + Algorithms
+          </h5>
+          <p class="card-text">
+            Using the strategies, lessons, and exercises in this course, you
+            will learn how to land offers from great tech companies like
+            Google, Microsoft, Facebook, Netflix, Amazon and more!
+          </p>
+        </div>
+        <div class="card-footer text-center">
+          <a href="./courses/master-the-coding-interview.html" class="btn btn-outline-warning" target="_blank">View Course</a>
+        </div>
+      </div>
+
+      <!-- AJC -->
+      <div class="card coursecard col-12 col-md-5 col-lg-3 p-0" data-aos="fade-up" data-aos-duration="1000">
+        <img class="card-img-top" src="./assets/images/course-images/AJC.jpg" alt="Andrei Neagoie Advanced JavaScript Concepts Course Image" />
+        <div class="card-body">
+          <h5 class="card-title">
+            Advanced JavaScript Concepts
+          </h5>
+          <p class="card-text">
+            You will become a top 10% javascript developer by going beyond the
+            superficial basics that a lot of courses cover. We are going to
+            dive deep and come out the other end a confident advanced
+            javascript developer.
+          </p>
+        </div>
+        <div class="card-footer text-center">
+          <a href="./courses/advanced-javascript.html" class="btn btn-outline-warning" target="_blank">View Course</a>
+        </div>
+      </div>
+
+      <!-- CRD -->
+      <div class="card coursecard col-12 col-md-5 col-lg-3 p-0" data-aos="fade-up" data-aos-duration="1500">
+        <img class="card-img-top" src="./assets/images/course-images/complete-react-developer.jpg" alt="Andrei Neagoie Complete React Developer Course Image" />
+        <div class="card-body">
+          <h5 class="card-title">
+            Complete React Developer in <span class="year"></span>
+          </h5>
+          <p class="card-text">
+            Become a Senior React Developer! Build a massive E-commerce app 
+            with Redux, Hooks, GraphQL, ContextAPI, Stripe, Firebase. Master React design patterns and 
+            develop a E-Commerce React application with above skills.
+          </p>
+        </div>
+        <div class="card-footer text-center">
+          <a href="./courses/complete-react-developer.html" class="btn btn-outline-warning" target="_blank">View Course</a>
+        </div>
+      </div>
+
+      <!-- CPD -->
+      <div class="card coursecard col-12 col-md-5 col-lg-3 p-0" data-aos="fade-up" data-aos-duration="1500">
+        <img class="card-img-top" src="./assets/images/course-images/complete-python-developer.jpg" alt="Andrei Neagoie Complete Python Developer in 2019 Zero to Mastery Course Image" />
+        <div class="card-body">
+          <h5 class="card-title">
+            Complete Python Developer in <span class="year"></span>
+          </h5>
+          <p class="card-text">
+            How to become a Python 3 Developer and get hired! Build 12+ projects, learn Web Development, Machine Learning, Data Science, Web Scraping, processing images, CSVs, PDFs and other files and much more.
+          </p>
+        </div>
+        <div class="card-footer text-center">
+          <a href="./courses/complete-python-developer.html" class="btn btn-outline-warning" target="_blank">View Course</a>
+        </div>
+      </div>
+
+      <!-- MLDS -->
+      <div class="card coursecard col-12 col-md-5 col-lg-3 p-0" data-aos="fade-up" data-aos-duration="1500">
+        <img class="card-img-top" src="./assets/images/course-images/MLDS.png" alt="Andrei Neagoie Complete Machine Learning and Data Science: Zero to Mastery Course Image" />
+        <div class="card-body">
+          <h5 class="card-title">
+            Complete Machine Learning and Data Science: Zero to Mastery
+          </h5>
+          <p class="card-text">
+            Learn Data Science, Data Analysis, Machine Learning (Artificial Intelligence) and Python with Tensorflow, Pandas & more!
+          </p>
+        </div>
+        <div class="card-footer text-center">
+          <a href="./courses/machine-learning-and-data-science.html" class="btn btn-outline-warning" target="_blank">View Course</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <div id="footer"></div>
+
+  <script src="./assets/js/scripts.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset: 400,
+      duration: 1000
+    });
+  </script>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha384-xBuQ/xzmlsLoJpyjoggmTEz8OWUFM0/RC5BsqQBDX2v5cMvDHcMakNTNrHIW2I5f" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  <script>
+    $(function(){
+      $("#nav").load("nav.html"); 
+      $("#footer").load("../footer.html", function() {
+        getDateFooter();
+      });
+    });
+  </script>
+</body>
+
+</html>
